@@ -1,0 +1,87 @@
+ul{
+
+  background-color:rgb(204, 192, 250);
+}
+table,tr,th,td{
+padding:10px;
+border: 3px  solid black;
+background-color:#fe8168;
+border-collapse:collapse;
+
+} 
+body{
+ background-color:#ccdd45; 
+}
+img{
+  border-radius:20px;
+  box-shadow:4px 6px black;
+}
+p{
+   margin: 5px 5px 5px 50px;
+   font-style:italic;
+    white-space: nowrap; 
+    width: 200px; 
+    text-overflow: clip; 
+}
+nav>ul{
+text-align:right; 
+  
+}
+  ul>li{display:inline-block;
+  text-transform:uppercase;
+  padding:1%;
+}
+footer:hover{
+   display: block;
+     background-color: #ccc0fa;
+    color: black;
+    padding: 15px;
+    position:absolute;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: Helvetica;
+    font-size: 30px;
+     font-weight: 900;
+}
+a{
+  text-decoration: none; 
+     background-color:#ccc0fa;
+     text-transform:uppercase;
+     text-align:right; 
+}
+h4{
+   text-align: center;
+   text-transform:uppercase; 
+}
+h5,h6{
+ font-size: 18px; 
+ flex-wrap: wrap;
+}
+.kgl{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1w2DpyBQMU0SbzclvJBlARYnY9tfyiuvjkbOVAxpO56f2TyfgA");
+  background-repeat:no-repeat;
+  background-position: center; 
+  background-size: 1800px 1500px;
+  justify-content: flex-end;
+}
+ol{
+  font-size: 20px; 
+}
+div{ 
+  position: relative;
+  align-items: center;
+  flex-grow: 3;
+  flex-direction: row-reverse;
+} 
+/*it's a comment in css */
+.flex-container{
+    display: flex;
+    flex-direction: column;
+      flex-wrap: wrap;
+        justify-content: space-between;
+         align-items: baseline;
+          flex-grow:3;
+} 
